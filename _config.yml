@@ -1,0 +1,36 @@
+# Site settings
+title: Ryan Hannam
+email: ryanhannam@live.co.uk
+email2: ryan.hannam@kcl.ac.uk
+url: https://example.github.io
+description: "Researcher - Data Scientist - Tech Nerd"
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#00ffff' #cyan #'#219ab3' #darker cyan
+
+# Footer settings
+footer: Ryan Hannam
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/r_hannam
+  - title: linkedin
+    url: https://uk.linkedin.com/in/ryan-hannam-78737294
+  - title: ResearchGate
+    url: https://www.researchgate.net/profile/Ryan_Hannam
+  #- title: facebook
+   # url:
+  #- title: stack-overflow
+   # url: http://stackoverflow.com/questions/tagged/jekyll
+  #- title: bitbucket
+   # url: http://bitbucket.org/jekyll
+  #- title: github
+   # url: https://github.com/IronSummitMedia/startbootstrap
+
+# Build settings
+markdown: kramdown
+#permalink: pretty
+theme: minima
