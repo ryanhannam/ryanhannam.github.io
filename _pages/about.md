@@ -25,7 +25,7 @@ I am a London-based quantitive researcher with 6+ years of experience working in
 
 In 2019, I received my PhD in Applied Mathematics from King’s College London. I spent 4 years working in the Disordered Systems group, where I developed models of gene regulatory networks to understand cellular identity and cell state transitions.
 
-After my PhD, I worked in collaboration with King's College London and [ClickSymptoms](https://clicksymptoms.co.uk/), to build develop an algorithm to diagnose musculoskeletal conditions from patient symptoms, using Bayesian inference and bipartite network theory.
+After my PhD, I worked in collaboration with King's College London and [ClickSymptoms](https://clicksymptoms.co.uk/), to develop an algorithm to diagnose musculoskeletal conditions from patient symptoms, using Bayesian inference and bipartite network theory.
 
 I am currently working as a Postdoc at the [London Institute for Mathematical Sciences](https://lims.ac.uk/), where I focus on mathematical models for cell programming & reprogramming.
 <br>
