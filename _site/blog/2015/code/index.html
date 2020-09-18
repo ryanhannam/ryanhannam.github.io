@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Ryan  Hannam | Publications</title>
+<title>Ryan  Hannam | a post with code</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -23,7 +23,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/publications/">
+<link rel="canonical" href="/blog/2015/code/">
 
 <!-- Open Graph -->
 
@@ -62,7 +62,7 @@
           </li>
           <!--  -->
           <!-- Blog
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -86,11 +86,9 @@
           
           
           
-          <li class="nav-item active">
+          <li class="nav-item ">
               <a class="nav-link" href="/publications/">
                 Publications
-                
-                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -120,7 +118,7 @@
           </li>
           
           -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/publications/">
               publications
               
@@ -143,173 +141,66 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Publications</h1>
-    <p class="post-description"></p>
+    <h1 class="post-title">a post with code</h1>
+    <p class="post-meta">July 15, 2015</p>
   </header>
 
-  <article>
-    <div class="publications">
+  <article class="post-content">
+    <p>This theme implements a built-in Jekyll feature, the use of Rouge, for syntax highlighting.
+It supports more than 100 languages.
+This example is in C++.
+All you have to do is wrap your code in a liquid tag:</p>
 
+<p>{% highlight c++ linenos %}  <br /> code code code <br /> {% endhighlight %}</p>
 
-  <h2 class="year">2019</h2>
-  <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
-  
-  </div>
+<p>The keyword <code class="language-plaintext highlighter-rouge">linenos</code> triggers display of line numbers.
+Produces something like this:</p>
 
-  <div id="Hannam2019a" class="col-sm-8">
-    
-      <div class="title">Percolation in bipartite Boolean networks and its role in sustaining life</div>
-      <div class="author">
-        
-          
-            
-              
-                <em> Ryan Hannam</em>,
-              
-            
-          
-        
-          
-            
-              
-                
-                   Reimer Kühn,
-                
-              
-            
-          
-        
-          
-            
-              
-                
-                  and Annibale, Alessia
-                
-              
-            
-          
-        
-      </div>
+<figure class="highlight"><pre><code class="language-c--" data-lang="c++"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+</pre></td><td class="code"><pre><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="k">const</span> <span class="err">\</span><span class="o">*</span><span class="n">argv</span><span class="p">[])</span>
+<span class="p">{</span>
+    <span class="n">string</span> <span class="n">myString</span><span class="p">;</span>
 
-      <div class="periodical">
-      
-        <em>Journal of Physics A: Mathematical and Theoretical J. Phys. A: Math. Theor</em>
-      
-      
-        2019
-      
-      </div>
-    
+    <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="s">"input a string: "</span><span class="p">;</span>
+    <span class="n">getline</span><span class="p">(</span><span class="n">cin</span><span class="p">,</span> <span class="n">myString</span><span class="p">);</span>
+    <span class="kt">int</span> <span class="n">length</span> <span class="o">=</span> <span class="n">myString</span><span class="p">.</span><span class="n">length</span><span class="p">();</span>
 
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
+    <span class="kt">char</span> <span class="n">charArray</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">char</span> <span class="o">*</span> <span class="p">[</span><span class="n">length</span><span class="p">];</span>
 
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Boolean networks are popular models for gene regulation, where genes are regarded as binary units, that can be either expressed or not, each updated at regular time intervals according to a random Boolean function of its neighbouring genes. Stable gene expression profiles, corresponding to cell types, are regarded as attractors of the network dynamics. However, the random character of gene updates does not allow to link explicitly the existence of attractors to the biological mechanism with which genes interact. We propose a bipartite Boolean network approach which integrates genes and regulatory proteins (i.e. transcription factors (TFs)) into a single network, where interactions incorporate two fundamental aspects of cellular biology, i.e. gene expression and gene regulation, and the resulting dynamics is highly non-linear. Since any finite stochastic system is ergodic, the emergence of an attractor structure, stable under noisy conditions, requires a giant component in the bipartite graph. By adapting graph percolation techniques to directed bipartite graphs, we are able to calculate exactly the region, in the network parameters space, where a cell can sustain steady-state gene expression profiles, in the absence of inhibitors, and we quantify numerically the effect of inhibitors. Results show that for cells to sustain a steady-state gene expression profile, TFs should typically be small protein complexes that regulate many genes. This condition is crucial for cell reprogramming and remarkably well in line with biological facts.</p>
-    </div>
-    
-  </div>
-</div>
-</li></ol>
+    <span class="n">charArray</span> <span class="o">=</span> <span class="n">myString</span><span class="p">;</span>
+    <span class="k">for</span><span class="p">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">length</span><span class="p">;</span> <span class="o">++</span><span class="n">i</span><span class="p">){</span>
+        <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="n">charArray</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">&lt;&lt;</span> <span class="s">" "</span><span class="p">;</span>
+    <span class="p">}</span>
 
-  <h2 class="year">2017</h2>
-  <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
-  
-  </div>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></td></tr></tbody></table></code></pre></figure>
 
-  <div id="Hannam2017a" class="col-sm-8">
-    
-      <div class="title">Cell reprogramming modelled as transitions in a hierarchy of cell cycles</div>
-      <div class="author">
-        
-          
-            
-              
-                <em> Ryan Hannam</em>,
-              
-            
-          
-        
-          
-            
-              
-                
-                   Alessia Annibale,
-                
-              
-            
-          
-        
-          
-            
-              
-                
-                  and Kühn, Reimer
-                
-              
-            
-          
-        
-      </div>
-
-      <div class="periodical">
-      
-        <em>Journal of Physics A: Mathematical and Theoretical</em>
-      
-      
-        2017
-      
-      </div>
-    
-
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
-
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>\textcopyright 2017 IOP Publishing Ltd. We construct a model of cell reprogramming (the conversion of fully differentiated cells to a state of pluripotency, known as induced pluripotent stem cells, or iPSCs) which builds on key elements of cell biology viz. cell cycles and cell lineages. Although reprogramming has been demonstrated experimentally, much of the underlying processes governing cell fate decisions remain unknown. This work aims to bridge this gap by modelling cell types as a set of hierarchically related dynamical attractors representing cell cycles. Stages of the cell cycle are characterised by the configuration of gene expression levels, and reprogramming corresponds to triggering transitions between such configurations. Two mechanisms were found for reprogramming in a two level hierarchy: cycle specific perturbations and a noise induced switching. The former corresponds to a directed perturbation that induces a transition into a cycle-state of a different cell type in the potency hierarchy (mainly a stem cell) whilst the latter is a priori undirected and could be induced, e.g. by a (stochastic) change in the cellular environment. These reprogramming protocols were found to be effective in large regimes of the parameter space and make specific predictions concerning reprogramming dynamics which are broadly in line with experimental findings.</p>
-    </div>
-    
-  </div>
-</div>
-</li></ol>
-
-
-</div>
 
   </article>
+
+  
 
 </div>
 

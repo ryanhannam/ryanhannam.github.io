@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Ryan  Hannam | Publications</title>
+<title>Ryan  Hannam | a distill-style blog post</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -23,12 +22,90 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/publications/">
+<link rel="canonical" href="/blog/2018/distill/">
 
 <!-- Open Graph -->
 
 
+    <script src="/assets/js/distillpub/template.v2.js"></script>
+    <script src="/assets/js/distillpub/transforms.v2.js"></script>
+    
+    <style type="text/css">
+      .fake-img {
+  background: #bbb;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 12px;
+} .fake-img p {
+  font-family: monospace;
+  color: white;
+  text-align: left;
+  margin: 12px 0;
+  text-align: center;
+  font-size: 16px;
+}
+
+    </style>
+    
   </head>
+
+  <d-front-matter>
+    <script type="text/json">{
+      "title": "a distill-style blog post",
+      "description": "an example of a distill-style blog post and main elements",
+      "published": "2018-12-22 00:00:00 +0000",
+      "authors": [
+        
+        {
+          "author": "Albert Einstein",
+          "authorURL": "https://en.wikipedia.org/wiki/Albert_Einstein",
+          "affiliations": [
+            {
+              "name": "IAS, Princeton",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Boris Podolsky",
+          "authorURL": "https://en.wikipedia.org/wiki/Boris_Podolsky",
+          "affiliations": [
+            {
+              "name": "IAS, Princeton",
+              "url": ""
+            }
+          ]
+        },
+        
+        {
+          "author": "Nathan Rosen",
+          "authorURL": "https://en.wikipedia.org/wiki/Nathan_Rosen",
+          "affiliations": [
+            {
+              "name": "IAS, Princeton",
+              "url": ""
+            }
+          ]
+        }
+        
+      ],
+      "katex": {
+        "delimiters": [
+          {
+            "left": "$",
+            "right": "$",
+            "display": false
+          },
+          {
+            "left": "$$",
+            "right": "$$",
+            "display": true
+          }
+        ]
+      }
+    }</script>
+  </d-front-matter>
 
   <body class="fixed-top-nav ">
 
@@ -62,7 +139,7 @@
           </li>
           <!--  -->
           <!-- Blog
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -86,11 +163,9 @@
           
           
           
-          <li class="nav-item active">
+          <li class="nav-item ">
               <a class="nav-link" href="/publications/">
                 Publications
-                
-                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -120,7 +195,7 @@
           </li>
           
           -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/publications/">
               publications
               
@@ -142,176 +217,118 @@
 
     <!-- Content -->
 
-    <div class="container mt-5">
-      <div class="post">
+    <div class="post distill">
 
-  <header class="post-header">
-    <h1 class="post-title">Publications</h1>
-    <p class="post-description"></p>
-  </header>
+      <d-title>
+        <h1>a distill-style blog post</h1>
+        <p>an example of a distill-style blog post and main elements</p>
+      </d-title>
 
-  <article>
-    <div class="publications">
+      <d-byline></d-byline>
 
+      <d-article>
+        <h2 id="equations">Equations</h2>
 
-  <h2 class="year">2019</h2>
-  <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
-  
-  </div>
+<p>This theme supports rendering beautiful math in inline and display modes using <a href="https://khan.github.io/KaTeX/">KaTeX</a> engine.
+You just need to surround your math expression with <code class="language-plaintext highlighter-rouge">$$</code>, like <code class="language-plaintext highlighter-rouge">$$ E = mc^2 $$</code>.
+If you leave it inside a paragraph, it will produce an inline expression, just like \(E = mc^2\).</p>
 
-  <div id="Hannam2019a" class="col-sm-8">
-    
-      <div class="title">Percolation in bipartite Boolean networks and its role in sustaining life</div>
-      <div class="author">
-        
-          
-            
-              
-                <em> Ryan Hannam</em>,
-              
-            
-          
-        
-          
-            
-              
-                
-                   Reimer Kühn,
-                
-              
-            
-          
-        
-          
-            
-              
-                
-                  and Annibale, Alessia
-                
-              
-            
-          
-        
-      </div>
+<p>To use display mode, again surround your expression with <code class="language-plaintext highlighter-rouge">$$</code> and place it as a separate paragraph.
+Here is an example:</p>
 
-      <div class="periodical">
-      
-        <em>Journal of Physics A: Mathematical and Theoretical J. Phys. A: Math. Theor</em>
-      
-      
-        2019
-      
-      </div>
-    
+\[\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)\]
 
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
+<p>Note that <a href="https://khan.github.io/KaTeX/">KaTeX</a> is work in progress, so it does not support the full range of math expressions as, say, <a href="https://www.mathjax.org/">MathJax</a>.
+Yet, it is <a href="http://www.intmath.com/cg5/katex-mathjax-comparison.php">blazing fast</a>.</p>
 
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>Boolean networks are popular models for gene regulation, where genes are regarded as binary units, that can be either expressed or not, each updated at regular time intervals according to a random Boolean function of its neighbouring genes. Stable gene expression profiles, corresponding to cell types, are regarded as attractors of the network dynamics. However, the random character of gene updates does not allow to link explicitly the existence of attractors to the biological mechanism with which genes interact. We propose a bipartite Boolean network approach which integrates genes and regulatory proteins (i.e. transcription factors (TFs)) into a single network, where interactions incorporate two fundamental aspects of cellular biology, i.e. gene expression and gene regulation, and the resulting dynamics is highly non-linear. Since any finite stochastic system is ergodic, the emergence of an attractor structure, stable under noisy conditions, requires a giant component in the bipartite graph. By adapting graph percolation techniques to directed bipartite graphs, we are able to calculate exactly the region, in the network parameters space, where a cell can sustain steady-state gene expression profiles, in the absence of inhibitors, and we quantify numerically the effect of inhibitors. Results show that for cells to sustain a steady-state gene expression profile, TFs should typically be small protein complexes that regulate many genes. This condition is crucial for cell reprogramming and remarkably well in line with biological facts.</p>
-    </div>
-    
-  </div>
-</div>
-</li></ol>
+<hr />
 
-  <h2 class="year">2017</h2>
-  <ol class="bibliography"><li><div class="row">
-  <div class="col-sm-2 abbr">
-  
-  </div>
+<h2 id="citations">Citations</h2>
 
-  <div id="Hannam2017a" class="col-sm-8">
-    
-      <div class="title">Cell reprogramming modelled as transitions in a hierarchy of cell cycles</div>
-      <div class="author">
-        
-          
-            
-              
-                <em> Ryan Hannam</em>,
-              
-            
-          
-        
-          
-            
-              
-                
-                   Alessia Annibale,
-                
-              
-            
-          
-        
-          
-            
-              
-                
-                  and Kühn, Reimer
-                
-              
-            
-          
-        
-      </div>
+<p>Citations are then used in the article body with the <code class="language-plaintext highlighter-rouge">&lt;d-cite&gt;</code> tag.
+The key attribute is a reference to the id provided in the bibliography.
+The key attribute can take multiple ids, separated by commas.</p>
 
-      <div class="periodical">
-      
-        <em>Journal of Physics A: Mathematical and Theoretical</em>
-      
-      
-        2017
-      
-      </div>
-    
+<p>The citation is presented inline like this: <d-cite key="gregor2015draw"></d-cite> (a number that displays more information on hover).
+If you have an appendix, a bibliography is automatically created and populated in it.</p>
 
-    <div class="links">
-    
-      <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    </div>
+<p>Distill chose a numerical inline citation style to improve readability of citation dense articles and because many of the benefits of longer citations are obviated by displaying more information on hover.
+However, we consider it good style to mention author last names if you discuss something at length and it fits into the flow well — the authors are human and it’s nice for them to have the community associate them with their work.</p>
 
-    <!-- Hidden abstract block -->
-    
-    <div class="abstract hidden">
-      <p>\textcopyright 2017 IOP Publishing Ltd. We construct a model of cell reprogramming (the conversion of fully differentiated cells to a state of pluripotency, known as induced pluripotent stem cells, or iPSCs) which builds on key elements of cell biology viz. cell cycles and cell lineages. Although reprogramming has been demonstrated experimentally, much of the underlying processes governing cell fate decisions remain unknown. This work aims to bridge this gap by modelling cell types as a set of hierarchically related dynamical attractors representing cell cycles. Stages of the cell cycle are characterised by the configuration of gene expression levels, and reprogramming corresponds to triggering transitions between such configurations. Two mechanisms were found for reprogramming in a two level hierarchy: cycle specific perturbations and a noise induced switching. The former corresponds to a directed perturbation that induces a transition into a cycle-state of a different cell type in the potency hierarchy (mainly a stem cell) whilst the latter is a priori undirected and could be induced, e.g. by a (stochastic) change in the cellular environment. These reprogramming protocols were found to be effective in large regimes of the parameter space and make specific predictions concerning reprogramming dynamics which are broadly in line with experimental findings.</p>
-    </div>
-    
-  </div>
-</div>
-</li></ol>
+<hr />
 
+<h2 id="footnotes">Footnotes</h2>
 
+<p>Just wrap the text you would like to show up in a footnote in a <code class="language-plaintext highlighter-rouge">&lt;d-footnote&gt;</code> tag.
+The number of the footnote will be automatically generated.<d-footnote>This will become a hoverable footnote.</d-footnote></p>
+
+<hr />
+
+<h2 id="code-blocks">Code Blocks</h2>
+
+<p>Syntax highlighting is provided within <code class="language-plaintext highlighter-rouge">&lt;d-code&gt;</code> tags.
+An example of inline code snippets: <code class="language-plaintext highlighter-rouge">&lt;d-code language="html"&gt;let x = 10;&lt;/d-code&gt;</code>.
+For larger blocks of code, add a <code class="language-plaintext highlighter-rouge">block</code> attribute:</p>
+
+<d-code block="" language="javascript">
+  var x = 25;
+  function(x) {
+    return x * x;
+  }
+</d-code>
+
+<hr />
+
+<h2 id="layouts">Layouts</h2>
+
+<p>The main text column is referred to as the body.
+It is the assumed layout of any direct descendants of the <code class="language-plaintext highlighter-rouge">d-article</code> element.</p>
+
+<div class="fake-img l-body">
+  <p>.l-body</p>
 </div>
 
-  </article>
+<p>For images you want to display a little larger, try <code class="language-plaintext highlighter-rouge">.l-page</code>:</p>
 
+<div class="fake-img l-page">
+  <p>.l-page</p>
 </div>
+
+<p>All of these have an outset variant if you want to poke out from the body text a little bit.
+For instance:</p>
+
+<div class="fake-img l-body-outset">
+  <p>.l-body-outset</p>
+</div>
+
+<div class="fake-img l-page-outset">
+  <p>.l-page-outset</p>
+</div>
+
+<p>Occasionally you’ll want to use the full browser width.
+For this, use <code class="language-plaintext highlighter-rouge">.l-screen</code>.
+You can also inset the element a little from the edge of the browser by using the inset variant.</p>
+
+<div class="fake-img l-screen">
+  <p>.l-screen</p>
+</div>
+<div class="fake-img l-screen-inset">
+  <p>.l-screen-inset</p>
+</div>
+
+<p>The final layout is for marginalia, asides, and footnotes.
+It does not interrupt the normal flow of <code class="language-plaintext highlighter-rouge">.l-body</code> sized text except on mobile screen sizes.</p>
+
+<div class="fake-img l-gutter">
+  <p>.l-gutter</p>
+</div>
+
+      </d-article>
+
+      <d-appendix>
+        <d-footnote-list></d-footnote-list>
+        <d-citation-list></d-citation-list>
+      </d-appendix>
 
     </div>
 
@@ -374,5 +391,8 @@
 
 
 
+
+  <d-bibliography src="/assets/bibliography/2018-12-22-distill.bib">
+  </d-bibliography>
 
 </html>
