@@ -34,7 +34,7 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 .post-description a { color: inherit; font-size: 0.875rem; }
 .post-description a:hover { color: #2698BA; text-decoration: none; }
 
-.navbar { box-shadow: none; border-bottom: 1px solid #e8e8e8; opacity: 0.95; }
+.navbar { box-shadow: none; border-bottom: 0px solid #e8e8e8; opacity: 0.95; }
 
 .navbar.navbar-light a:hover { text-decoration: none; }
 .navbar.navbar-light .navbar-nav .nav-item .nav-link:hover { color: #2698BA; }
