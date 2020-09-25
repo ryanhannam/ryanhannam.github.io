@@ -25,11 +25,12 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 
 I am a London-based quantitive researcher with 6+ years of experience working in the research sector. I use mathematical modelling, data analysis & visualisation, and Monte Carlo simulation methods to tackle complex interdisciplinary problems.
-In 2019, I received my PhD in Applied Mathematics from King’s College London. I spent 4 years working in the Disordered Systems group, where I developed models of gene regulatory networks to understand cellular identity and cell state transitions.
+In 2019, I received my PhD in Applied Mathematics from King’s College London. I spent 4 years working in the <a href="https://www.kcl.ac.uk/research/disordered-systems">Disordered Systems group</a>, where I developed models of gene regulatory networks to understand cellular identity and cell state transitions.
 
-After my PhD, I worked in collaboration with King’s College London and ClickSymptoms developing an algorithm which diagnoses musculoskeletal conditions from patient symptoms. The algorithm is based on Bayesian inference and bipartite network theory. I developed and documented the algorithm as a Python package.
 
-I am currently working as a Postdoc at the London Institute for Mathematical Sciences, where I focus on mathematical models for cell programming & reprogramming.
+After my PhD, I worked in collaboration with King’s College London and <a href="https://clicksymptoms.co.uk/">ClickSymptoms</a> developing an algorithm which diagnoses musculoskeletal conditions from patient symptoms. The algorithm is based on Bayesian inference and bipartite network theory. I developed and documented the algorithm as a Python package.
+
+I am currently working as a Postdoc at the <a href="https://lims.ac.uk/">London Institute for Mathematical Sciences</a>, where I focus on mathematical models for cell programming & reprogramming.
 <br>
 <br>
 <br>
